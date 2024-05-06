@@ -1,10 +1,32 @@
-## TypeScriptとReact/Next.jsでつくるC2Cアプリケーション
+## DjangoでつくるWebアプリケーション
 
 ![サンプルアプリ](https://private-user-images.githubusercontent.com/135807730/328080444-4063da19-b311-40b4-ba95-316724871d76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ5NzA5ODYsIm5iZiI6MTcxNDk3MDY4NiwicGF0aCI6Ii8xMzU4MDc3MzAvMzI4MDgwNDQ0LTQwNjNkYTE5LWIzMTEtNDBiNC1iYTk1LTMxNjcyNDg3MWQ3Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUwNlQwNDQ0NDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MDMwNDFhZGZhOGY4MWUxMjJkZTBiZGQyZjk1MzA4NDRjMzU3ZmNhOGY4MzBmNzYwMDk2NDBmMDRhZmZiMTliJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.GfFFWw39TNV0ua2ZBXLEMSXFgngeXJ0tBg7688QwcwY)
 
-## 環境
+## 開始方法
 
-- Node.js: 16.14.0
-- Next.js: 14.2.3
-- React: 18.2.0
+このプロジェクトをローカルで実行するためのステップバイステップガイドです。
 
+### 前提条件
+
+Python 3.10.9
+Django 4.2.4
+
+### インストール方法
+
+プロジェクトをインストールして実行するための手順を説明します。
+
+1. リポジトリをクローンします:
+git clone https://github.com/daiseisudoproject/photoproject
+
+2. 必要なパッケージをインストールします:
+pip install -r requirements.txt
+
+3. データベースのマイグレーションを実行します:
+python manage.py migrate
+
+4. 開発サーバーを起動します:
+python manage.py runserver
+
+## 使用方法
+
+このアプリケーションでは、写真をアップロードすることができ、ホームページに表示させることができます。投稿するにはサインアップし、「投稿する」ボタンからアップロードが可能です。
